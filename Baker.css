@@ -1,0 +1,51 @@
+body{
+    background-image:url(https://st.depositphotos.com/72141940/61467/v/450/depositphotos_614672828-stock-illustration-bakery-background-design-bread-flour.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(32, 11, 2);
+    text-align: center;
+}
+
+h1{
+    color:rgb(70, 40, 2);
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 30;
+}
+
+form{
+    background-color: rgb(131, 100, 60);
+    color: blanchedalmond;
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+label{
+    margin-bottom: 5px;
+}
+input{
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.row{
+    padding-bottom: 10px;
+}
+
+.error{
+    color: red;
+}
+
+input[type="submit"]{
+    background-color: blue;
+    color:ivory;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: coral;
+}
